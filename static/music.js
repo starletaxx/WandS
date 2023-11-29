@@ -1,5 +1,5 @@
 const bgm = uni.createInnerAudioContext();
-bgm.src = '../static/music.mp3'
+bgm.src = './static/music.mp3'
 bgm.loop = true;  //循环播放
 // bgm.autoplay=true;  //自动播放
 bgm.sessionCategory = 'soloAmbient'; //在后台时不播放，如有其他播放，会暂停其他播放（但在移动端h5中 后台不播放失效）（其他属性自行百度）
